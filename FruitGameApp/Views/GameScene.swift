@@ -59,6 +59,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         run(repeatAction, withKey: "fruitSpawner")
     }
 
+
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let touch = touches.first else { return }
+        let location = touch.location(in: self)
+        moveCharacter(to: location.x)
+    }
+
+
     
     override func didMove(to view: SKView) {
         backgroundColor = .systemTeal
@@ -110,10 +119,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
-
         let location = touch.location(in: self)
+        
         let nodesAtPoint = nodes(at: location)
-
         if isGameOver {
             if nodesAtPoint.contains(where: { $0.name == "RestartButton" }) {
                 restartGame()
@@ -121,10 +129,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             return
         }
 
-        // Normal move code
-        let moveX = location.x < size.width / 2 ? -50 : 50
-        let newX = min(max(character.position.x + CGFloat(moveX), 50), screenWidth - 50)
-        let moveAction = SKAction.moveTo(x: newX, duration: 0.2)
+        moveCharacter(to: location.x)
+    }
+    func moveCharacter(to x: CGFloat) {
+        let clampedX = min(max(x, 50), screenWidth - 50)
+        let moveAction = SKAction.moveTo(x: clampedX, duration: 0.1)
         character.run(moveAction)
     }
 
