@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D86AE3EB2E03DAEB001B6F11 /* FruitGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D86AE3F82E03DAED001B6F11 /* FruitGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D86AE4022E03DAED001B6F11 /* FruitGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86AE3EB2E03DAEB001B6F11 /* BunnyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BunnyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86AE3F82E03DAED001B6F11 /* BunnyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunnyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86AE4022E03DAED001B6F11 /* BunnyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunnyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D86AE3ED2E03DAEB001B6F11 /* FruitGameApp */ = {
+		D86AE3ED2E03DAEB001B6F11 /* BunnyGameApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FruitGameApp;
+			path = BunnyGameApp;
 			sourceTree = "<group>";
 		};
-		D86AE3FB2E03DAED001B6F11 /* FruitGameAppTests */ = {
+		D86AE3FB2E03DAED001B6F11 /* BunnyGameAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FruitGameAppTests;
+			path = BunnyGameAppTests;
 			sourceTree = "<group>";
 		};
-		D86AE4052E03DAED001B6F11 /* FruitGameAppUITests */ = {
+		D86AE4052E03DAED001B6F11 /* BunnyGameAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FruitGameAppUITests;
+			path = BunnyGameAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		D86AE3E22E03DAEB001B6F11 = {
 			isa = PBXGroup;
 			children = (
-				D86AE3ED2E03DAEB001B6F11 /* FruitGameApp */,
-				D86AE3FB2E03DAED001B6F11 /* FruitGameAppTests */,
-				D86AE4052E03DAED001B6F11 /* FruitGameAppUITests */,
+				D86AE3ED2E03DAEB001B6F11 /* BunnyGameApp */,
+				D86AE3FB2E03DAED001B6F11 /* BunnyGameAppTests */,
+				D86AE4052E03DAED001B6F11 /* BunnyGameAppUITests */,
 				D86AE3EC2E03DAEB001B6F11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		D86AE3EC2E03DAEB001B6F11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D86AE3EB2E03DAEB001B6F11 /* FruitGame.app */,
-				D86AE3F82E03DAED001B6F11 /* FruitGameTests.xctest */,
-				D86AE4022E03DAED001B6F11 /* FruitGameUITests.xctest */,
+				D86AE3EB2E03DAEB001B6F11 /* BunnyGame.app */,
+				D86AE3F82E03DAED001B6F11 /* BunnyGameTests.xctest */,
+				D86AE4022E03DAED001B6F11 /* BunnyGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D86AE3EA2E03DAEB001B6F11 /* FruitGame */ = {
+		D86AE3EA2E03DAEB001B6F11 /* BunnyGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D86AE40C2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "FruitGame" */;
+			buildConfigurationList = D86AE40C2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "BunnyGame" */;
 			buildPhases = (
 				D86AE3E72E03DAEB001B6F11 /* Sources */,
 				D86AE3E82E03DAEB001B6F11 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D86AE3ED2E03DAEB001B6F11 /* FruitGameApp */,
+				D86AE3ED2E03DAEB001B6F11 /* BunnyGameApp */,
 			);
-			name = FruitGame;
+			name = BunnyGame;
 			packageProductDependencies = (
 			);
 			productName = FruitGameApp;
-			productReference = D86AE3EB2E03DAEB001B6F11 /* FruitGame.app */;
+			productReference = D86AE3EB2E03DAEB001B6F11 /* BunnyGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D86AE3F72E03DAED001B6F11 /* FruitGameTests */ = {
+		D86AE3F72E03DAED001B6F11 /* BunnyGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D86AE40F2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "FruitGameTests" */;
+			buildConfigurationList = D86AE40F2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "BunnyGameTests" */;
 			buildPhases = (
 				D86AE3F42E03DAED001B6F11 /* Sources */,
 				D86AE3F52E03DAED001B6F11 /* Frameworks */,
@@ -131,18 +131,18 @@
 				D86AE3FA2E03DAED001B6F11 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D86AE3FB2E03DAED001B6F11 /* FruitGameAppTests */,
+				D86AE3FB2E03DAED001B6F11 /* BunnyGameAppTests */,
 			);
-			name = FruitGameTests;
+			name = BunnyGameTests;
 			packageProductDependencies = (
 			);
 			productName = FruitGameAppTests;
-			productReference = D86AE3F82E03DAED001B6F11 /* FruitGameTests.xctest */;
+			productReference = D86AE3F82E03DAED001B6F11 /* BunnyGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D86AE4012E03DAED001B6F11 /* FruitGameUITests */ = {
+		D86AE4012E03DAED001B6F11 /* BunnyGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D86AE4122E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "FruitGameUITests" */;
+			buildConfigurationList = D86AE4122E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "BunnyGameUITests" */;
 			buildPhases = (
 				D86AE3FE2E03DAED001B6F11 /* Sources */,
 				D86AE3FF2E03DAED001B6F11 /* Frameworks */,
@@ -154,13 +154,13 @@
 				D86AE4042E03DAED001B6F11 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D86AE4052E03DAED001B6F11 /* FruitGameAppUITests */,
+				D86AE4052E03DAED001B6F11 /* BunnyGameAppUITests */,
 			);
-			name = FruitGameUITests;
+			name = BunnyGameUITests;
 			packageProductDependencies = (
 			);
 			productName = FruitGameAppUITests;
-			productReference = D86AE4022E03DAED001B6F11 /* FruitGameUITests.xctest */;
+			productReference = D86AE4022E03DAED001B6F11 /* BunnyGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D86AE3E62E03DAEB001B6F11 /* Build configuration list for PBXProject "FruitGame" */;
+			buildConfigurationList = D86AE3E62E03DAEB001B6F11 /* Build configuration list for PBXProject "BunnyGame" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D86AE3EA2E03DAEB001B6F11 /* FruitGame */,
-				D86AE3F72E03DAED001B6F11 /* FruitGameTests */,
-				D86AE4012E03DAED001B6F11 /* FruitGameUITests */,
+				D86AE3EA2E03DAEB001B6F11 /* BunnyGame */,
+				D86AE3F72E03DAED001B6F11 /* BunnyGameTests */,
+				D86AE4012E03DAED001B6F11 /* BunnyGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		D86AE3FA2E03DAED001B6F11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D86AE3EA2E03DAEB001B6F11 /* FruitGame */;
+			target = D86AE3EA2E03DAEB001B6F11 /* BunnyGame */;
 			targetProxy = D86AE3F92E03DAED001B6F11 /* PBXContainerItemProxy */;
 		};
 		D86AE4042E03DAED001B6F11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D86AE3EA2E03DAEB001B6F11 /* FruitGame */;
+			target = D86AE3EA2E03DAEB001B6F11 /* BunnyGame */;
 			targetProxy = D86AE4032E03DAED001B6F11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = FVB483SFK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -410,8 +410,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.FruitGameApp;
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.BunnyGameApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -429,7 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = FVB483SFK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -443,8 +443,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.FruitGameApp;
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.BunnyGameApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -466,12 +466,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.FruitGameAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.BunnyGameAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruitGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FruitGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BunnyGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BunnyGame";
 			};
 			name = Debug;
 		};
@@ -485,12 +485,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.FruitGameAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.BunnyGameAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruitGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FruitGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BunnyGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BunnyGame";
 			};
 			name = Release;
 		};
@@ -502,7 +502,7 @@
 				DEVELOPMENT_TEAM = FVB483SFK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.FruitGameAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.BunnyGameAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -519,7 +519,7 @@
 				DEVELOPMENT_TEAM = FVB483SFK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.FruitGameAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobee.BunnyGameAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -531,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D86AE3E62E03DAEB001B6F11 /* Build configuration list for PBXProject "FruitGame" */ = {
+		D86AE3E62E03DAEB001B6F11 /* Build configuration list for PBXProject "BunnyGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D86AE40A2E03DAED001B6F11 /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D86AE40C2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "FruitGame" */ = {
+		D86AE40C2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "BunnyGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D86AE40D2E03DAED001B6F11 /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D86AE40F2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "FruitGameTests" */ = {
+		D86AE40F2E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "BunnyGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D86AE4102E03DAED001B6F11 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D86AE4122E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "FruitGameUITests" */ = {
+		D86AE4122E03DAED001B6F11 /* Build configuration list for PBXNativeTarget "BunnyGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D86AE4132E03DAED001B6F11 /* Debug */,
